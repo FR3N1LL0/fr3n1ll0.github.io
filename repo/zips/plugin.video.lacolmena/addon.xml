@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <addon id="plugin.video.lacolmena" version="0.0.20" name="[B][COLOR aqua]La Colmena[/COLOR][/B]" provider-name="FR3N1LL0">
+    <requires>
+      <import addon="xbmc.python" version="3.0.1"/>
+      <import addon="script.module.requests"/>
+      <import addon="script.module.beautifulsoup4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+      <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Addon para Acestream Online</summary>
+        <description>Reproduce enlaces Acestream desde la web.</description>
+        <platform>all</platform>
+        <version>0.0.20</version>
+        <provider-name>FR3N1LL0</provider-name>
+        <assets>
+            <icon>resources/images/icon.jpg</icon>
+        </assets>
+    </extension>
+  </addon>
